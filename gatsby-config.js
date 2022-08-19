@@ -3,5 +3,8 @@ module.exports = {
     title: `PILLAPALU FOREST RETREAT`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [ 
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
